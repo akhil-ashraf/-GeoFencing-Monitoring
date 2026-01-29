@@ -1,0 +1,18 @@
+# Virtual Environment
+env/
+venv/
+*.pyc
+__pycache__/
+
+# Model files (large files)
+*.pt
+
+# Screenshots and reports (if they contain sensitive data)
+lazy_screenshots/
+reports/
+
+# CSV files (if they contain sensitive employee data)
+employee_log.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/

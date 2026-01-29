@@ -1,0 +1,32 @@
+# opencv-python
+# ultralytics
+# insightface
+# numpy
+# torch --index-url https://download.pytorch.org/whl/cu121
+# torchvision --index-url https://download.pytorch.org/whl/cu121
+# torchaudio --index-url https://download.pytorch.org/whl/cu121
+# onnxruntime-gpu
+
+# Core
+numpy==1.26.4
+opencv-python==4.8.1.78
+pillow
+
+# Deep Learning & Vision
+ultralytics==8.0.228
+insightface==0.7.3
+onnxruntime-gpu==1.17.1
+scikit-image
+
+# Utilities
+tqdm
+pyyaml
+protobuf
+requests
+
+# FaceAnalysis dependencies
+albumentations
+scipy
+
+# Optional (recommended)
+matplotlib
